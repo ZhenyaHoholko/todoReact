@@ -1,5 +1,6 @@
 {
   "name": "todo_react",
+  "home":"https://github.com/ZhenyaHoholko/todoReact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
