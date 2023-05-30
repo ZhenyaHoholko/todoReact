@@ -1,5 +1,6 @@
 import React from "react";
 import Task from "./Task";
+import "antd/dist/reset.css";
 
 import { useState } from "react";
 
@@ -29,7 +30,6 @@ const Input = ({ id, title }) => {
   return (
     <div>
       <input onChange={(elem) => setText(elem.target.value)} value={text} />
-
       <button onClick={() => mouseClick()}>Add</button>
       {tasks.map((item) => (
         <Task
