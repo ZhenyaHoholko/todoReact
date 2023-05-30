@@ -24,7 +24,6 @@ const Input = ({ id, title }) => {
       item.id === id ? { ...item, title: text } : item
     );
     setTasks([...arr]);
-    // console.log(arr);
   };
 
   return (
